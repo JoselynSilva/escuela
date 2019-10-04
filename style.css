@@ -1,0 +1,207 @@
+body {
+  position: relative;
+  background: #f4f4f4;
+}
+div {
+  display: block;
+}
+.main-menu {
+  display: block;
+  width: 100%;
+  min-height: 70px;
+  background-color: white;
+  box-shadow: 0 2px 18px 0 rgba(84, 84, 84, 0.5);
+}
+.main-menux {
+  background-color: #018800;
+}
+.container-f {
+  width: 100%;
+  margin: auto;
+  height: auto;
+  max-width: 1400px;
+}
+.main__menu--contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-menu {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-submenu {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-vertical {
+  background: #ffffff;
+  width: 270px;
+  height: 600px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  position: relative;
+  top: -55px;
+}
+.affix {
+  position: fixed !important;
+  top: 90px;
+}
+
+.title-p p {
+  margin: 20px 20px 5px 20px;
+  text-align: center;
+  font-family: Brevia;
+  font-style: 400px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #636a66;
+}
+
+.subtitle-p p {
+  font-family: Brevia;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: auto;
+  text-align: center;
+  color: rgba(67, 78, 93, 0.6);
+  margin: 10px 30px 30px;
+}
+
+div.col-sm-9 div {
+  height: 250px;
+  font-size: 28px;
+}
+
+a.text-format {
+  position: relative;
+  display: block;
+  margin: 12px 15px;
+  color: #f39000;
+  font-family: Brevia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+}
+a:hover {
+  color: #f39000;
+}
+.icon-text {
+  margin: 0px 5px;
+}
+.icon-flecha {
+  position: absolute;
+  left: 91%;
+  top: 35%;
+  bottom: 87%;
+}
+
+.nav-pilles > li.active > a,
+.nav-pilles > li.active > a:focus,
+.nav-pilles > li.active > a:hover {
+  color: #ffffff;
+  background-color: #f39000;
+}
+
+.content-text {
+  width: max-content;
+}
+.content-text .icon--hover {
+  display: none;
+  width: max-content;
+}
+
+li.active .icon {
+  display: none;
+  width: max-content;
+}
+li.active .icon--hover {
+  display: block;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.line {
+  background: #646464;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6 {
+  margin: 65px 0 250px 0;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5,
+  #section6 {
+    margin-left: 55px;
+    padding-top: 50px;
+  }
+
+  .card-vertical {
+    width: 210px;
+    height: 450px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    top: -50px;
+    margin-right: auto;
+  }
+
+  .title-p p {
+    font-size: 16px;
+    margin: 15px 15px 5px 15px;
+  }
+  .subtitle-p p {
+    font-size: 12px;
+    margin: 10px 15px 15px;
+  }
+
+  a.text-format {
+    font-size: 12px;
+    margin: 12px 15px;
+  }
+
+  .nav > li > a {
+    padding: 10px 0px;
+  }
+
+  .icon-text {
+    width: 24px;
+    margin: 0px 5px;
+  }
+
+  .icon-flecha {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 92%;
+    top: 37%;
+  }
+
+  .affix {
+    top: 125px;
+  }
+}
